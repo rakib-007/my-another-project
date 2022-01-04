@@ -9,6 +9,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
 .link-1{
     text-decoration: none;
     padding: 10px;
@@ -37,4 +40,37 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.flexable-area{
+    display: flex;
+}
+.box-1{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding:2% ;
+    box-shadow: 10px 10px 30px gray ;
+    border-radius: 5px;
+}
+.sec3{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, blue) 27;
+    border-image-slice :1;
+
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient( rgb(197, 197, 230) , rgb(235, 92, 92)) 27;
+    border-image-slice :1;
+
+}
+footer p{
+    padding-top: 50px;
+    text-align: center;
+
 }
